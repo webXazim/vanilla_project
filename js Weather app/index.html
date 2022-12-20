@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+
+    <script src="https://kit.fontawesome.com/51e7a5268c.js" crossorigin="anonymous"></script>
+    <title>Weather App using HTML5 CSS3 ES6</title>
+</head>
+
+<body>
+    <main class="root">
+        <header>
+            <h1>Weather App</h1>
+        </header>
+        <article>
+            <section>
+                <header class="header-bg">
+                    <div class="blur">
+                        <div class="grid2">
+                            <div class="temp-con">
+                                <h2 class="temp"></h2>
+                                <h4 class="line-height w-condition"></h4>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-cloud-moon"></i>
+                            </div>
+                        </div>
+                        <h4 class="location"></h4>
+                        <div class="line-height">
+                            <h5 class="h-l-temp"></h5>
+                            <h5 class="d-t"></h5>
+                        </div>
+                    </div>
+                </header>
+
+                <main>
+                    <section class="grid3 line-height main-stack">
+                        <div>
+                            <i class="fa-solid fa-wind"></i>
+                            <h4>Wind Speed</h4>
+                            <h5 class="w-speed"></h5>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-compass"></i>
+                            <h4>Wind Direction</h4>
+                            <h5 class="w-deg"></h5>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-gauge-high"></i>
+                            <h4>Wind Gust</h4>
+                            <h5 class="w-gust"></h5>
+                        </div>
+                    </section>
+                </main>
+
+                <footer class="grid2 line-height footer-stack">
+                    <div class="sunset">
+                        <img src="./sunset.jpg" alt="sunset image">
+                        <h4>Sunset</h4>
+                        <h5 class="sunset-time"></h5>
+                    </div>
+                    <div class="sunrising">
+                        <img src="./sunrising.jpg" alt="sun rising">
+                        <h4>Sunrise</h4>
+                        <h5 class="sunrise-time"></h5>
+                    </div>
+                </footer>
+            </section>
+        </article>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: #010115;
+}
+
+.root {
+    margin: auto;
+    max-width: 660px;
+}
+
+.line-height {
+    line-height: 1px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header-bg {
+    background-image: url('./nightsky.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 4px #010115;
+    -webkit-box-shadow: inset 0 0 20px 20px #010115;
+    -moz-box-shadow: inset 0 0 20px 20px #010115;
+    box-shadow: inset 0px 0px 20px 20px #010115;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.icon {
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.blur {
+    backdrop-filter: blur(5px);
+    padding: 5px;
+}
+
+.main-stack {
+    padding-top: 15px;
+}
+
+.footer-stack {
+    padding-top: 20px;
+}
+
+.sunset img,
+.sunrising img {
+    max-width: 80%;
+}
